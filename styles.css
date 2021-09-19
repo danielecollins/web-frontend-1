@@ -2,17 +2,35 @@ header {
     background-color: yellowgreen;
 }
 
-.page-title {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: silver;
+}
+
+footer {
+    background-color: yellowgreen;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
     text-align: center;
 }
 
-body {
-    background-color: silver;
+.page-title {
+    font-family:'Courier New', Courier, monospace;
+    font-style: bold;
 }
 
 .selfie {
     border-style: solid;
     border-color: slateblue;
-    width: 20rem;
+    width: 25%;
+    height: auto;
 }
