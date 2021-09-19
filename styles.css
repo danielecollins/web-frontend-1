@@ -1,0 +1,18 @@
+header {
+    background-color: yellowgreen;
+}
+
+.page-title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: silver;
+}
+
+.selfie {
+    border-style: solid;
+    border-color: slateblue;
+    width: 20rem;
+}
