@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+
 header {
 	background-color: yellowgreen;
 	color: black;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Stick No Bills', sans-serif;
 	font-style: bold;
     font-size:xx-large;
 	text-align: center;
