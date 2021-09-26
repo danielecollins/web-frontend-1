@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1250px) and (min-width: 580px) {
+    main {
+        grid-template-columns: 47% 47%;
+    }
+}

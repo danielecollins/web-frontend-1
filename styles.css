@@ -48,8 +48,8 @@ footer {
 
 .selfie {
     box-shadow: 10px 10px 20px rgb(39, 39, 39);
-	width: 75%;
-	height: auto;
+	width: auto;
+	height: 75%;
 	justify-self: center;
 	align-self: center;
 	grid-column: 2 / 3;
@@ -69,4 +69,8 @@ h2 {
 	display: grid;
 	grid-template-columns: 60% auto;
 	grid-template-rows: 25% auto 15%;
+}
+
+.last-updated {
+	color: indigo;
 }

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 580px) {
+    main {
+        grid-template-columns: 100%;
+    }
+
+    .section {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
