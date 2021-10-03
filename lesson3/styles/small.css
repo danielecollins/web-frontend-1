@@ -1,0 +1,37 @@
+@media only screen and (max-width: 580px) {
+    header {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .directory-item {
+        float: none;
+        margin-right: 10%;
+    }
+    
+    main {
+        grid-template-columns: 100%;
+    }
+
+    .target-audience-main {
+        grid-template-columns: 100%;
+    }
+
+    .section-title {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .sub-section {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    footer {
+        bottom: auto;
+    }
+
+    .color-scheme-footer {
+        bottom: 0;
+    }
+}
