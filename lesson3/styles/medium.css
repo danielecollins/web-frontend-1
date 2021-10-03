@@ -3,7 +3,7 @@
         grid-template-columns: 47% 47%;
     }
 
-    footer {
-        bottom: auto;
+    .color-scheme-footer {
+        bottom: 0;
     }
 }

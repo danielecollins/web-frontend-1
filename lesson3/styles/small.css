@@ -27,11 +27,19 @@
         margin-right: 3%;
     }
 
-    footer {
-        bottom: auto;
+    .description-text {
+        display: none;
     }
 
     .color-scheme-footer {
         bottom: 0;
+    }
+
+    .typography-footer {
+        bottom: 0;
+    }
+
+    .homepage-footer {
+        bottom: auto;
     }
 }
