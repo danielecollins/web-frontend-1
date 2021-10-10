@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    display: inline;
+    background-color: #daffef;
+}
+
+/*Header*/
+header {
+    background-color: #2e294e;
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: xx-large;
+    width: 100%;
+    border-top: 8px solid #ffd151;
+}
+
+.header-content {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+.site-logo {
+    height: 100px;
+    border-radius: 25px;
+}
+
+.header-words {
+    padding-left: 2%;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.yellow-letter {
+    color: #ffd151;
+}
+
+.motto {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    padding-left: 2%;
+}
+
+/*Nav*/
+.navigation {
+    border-top: 3px solid #ffd151;
+    background-color: #2e294e;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: xx-large;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 0;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: #ffd151;
+}
+
+/*Main*/
+main {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+hr {
+    background-color: #ffd151;
+	height: 1px;
+}
+
+.section {
+    background-color: #a6b1e1;
+    padding: 15px;
+    border: 2px dashed #2e294e;
+    color: wh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/*Footer*/
+footer {
+    background-color: #2e294e;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    font-size: x-large;
+    border-bottom: 5px solid #ffd151;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 15px;
+}
+
+#contact-information {
+    color:black;
+}
+
+#footer-text { 
+    padding-top: 10px;
+}
+
+#portal-link {
+    color: #ffd151;
+}
+
+
+
+

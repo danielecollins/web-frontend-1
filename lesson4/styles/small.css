@@ -1,0 +1,64 @@
+@media only screen and (max-width: 580px) {
+    .header-content {
+        display: inline;
+        text-align: center;
+    }
+
+    .site-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        background-color: #2e294e;
+        border-top: 3px solid #ffd151;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: inline;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+        justify-self: center;
+        border-bottom: 3px solid #ffd151;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .responsive li {
+        display: inline;
+    }
+    
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    h2 {
+        margin-bottom: 0%;
+        margin-left: 2%;
+        margin-top: 0;
+    }
+
+    .section {
+        padding: 0;
+        border-radius: 5px;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+}
