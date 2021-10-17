@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1250px) and (min-width: 580px) {
+    
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h2 {
+        margin-left: 2%;
+    }
+
+    #weather-summary {
+        position: initial;
+        top: initial;
+        left: initial;
+        width: auto;
+    }
+
+    #article {
+        min-height: 25rem;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: large;
+    }
+
+    .social-media img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Weather</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/aside.js" defer></script>
+</head>
+<body>
+    <aside style="display: block;">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</aside>
+    <header>
+        <div class="header-content">
+            <img src="images/weather_watchers_logo.png" alt="Weather Watchers logo" class="site-logo">
+            <div class="header-words">
+                <h1><span class="yellow-letter">W</span>eather <span class="yellow-letter">W</span>atchers</h1>
+                <div class="motto">The weather site catch phrase/motto</div>
+            </div>
+        </div>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="preston-5.html" class="active">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>   
+    </nav>
+    <main>
+        <div class="main-content">
+            <h2>Preston Idaho</h2>
+            <div id="herodiv">
+                <img src="images/pexels-jenny-uhling-4321286.jpg" alt="Picture of the beautiful mountians" id="hero-image">
+                <section id="weather-summary" class="section">
+                    <h3>Weather Summary</h3>
+                    <hr>
+                    <p>Currently: <span>Sunny</span></p>
+                    <p>High: <span>76 °F</span></p>
+                    <p>Wind Chill: <span>73 °F</span></p>
+                    <p>Humidity: <span>69%</span></p>
+                    <p>Wind Speed: <span>5 mph</span></p>
+                </section>
+            </div>
+            <div id="forecast">
+                <h3>5 Day Forecast</h3>
+                <table id="forecast-table">
+                    <thead>
+                        <tr>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/sun_icon.png" alt="sun icon">75 °F</td>
+                            <td><img src="images/sun_icon.png" alt="sun icon">87 °F</td>
+                            <td><img src="images/sun_icon.png" alt="sun icon">83 °F</td>
+                            <td><img src="images/sun_icon.png" alt="sun icon">77 °F</td>
+                            <td><img src="images/sun_icon.png" alt="sun icon">71 °F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="article" class="section">
+                <h3>An Unusually Warm October in Preston</h3>
+                <hr>
+                <img src="images/pexels-skitterphoto-3768.jpg" alt="Picture of the sky">
+                <p>
+                    
+                    October has been warm and warm it will be. There is nothing we can do about it. I guess it is cool.
+                    I like warm weather, it is good. The sun is also nice. Weather is cool and fun.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <section id="contact-section">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>208 Weather Way Rexburg, Idaho 83440</p>
+                    <p>(111) 111-1111</p>
+                    <p>weatherwatchers001@ww.com</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="facebook logo"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="instagram logo"></a>
+                        <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter_logo.png" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="images/location_map.jpg" alt="location map">
+                </div>
+            </section>
+            <div id="footer-text">&copy; <span id="year">2021</span> | <a id="portal-link" href="../index.html">Daniel E. Collins</a> | <span id="date"></span></div>
+        </div>
+    </footer>
+</body>
+</html>
