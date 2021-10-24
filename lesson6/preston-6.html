@@ -40,7 +40,11 @@
         <div class="main-content">
             <h2>Preston Idaho</h2>
             <div id="herodiv">
-                <img src="images/pexels-jenny-uhling-4321286.jpg" alt="Picture of the beautiful mountians" id="hero-image">
+                <picture>
+                    <source media="(min-width:580px) and (max-width: 1250px)" srcset="images/hero_image_medium.jpeg">
+                    <source media="(max-width:580px)" srcset="images/hero_image_small.jpeg">
+                    <img src="images/hero_image_large.jpeg" alt="Picture of the beautiful mountians" id="hero-image">
+                </picture>
                 <section id="weather-summary" class="section">
                     <h3>Weather Summary</h3>
                     <hr>
