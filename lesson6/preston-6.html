@@ -12,6 +12,7 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/aside.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <aside style="display: block;">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</aside>
@@ -29,7 +30,7 @@
         <ul class="navigation">
             <li><a class="ham" href="#">Menu</a></li>
             <li><a href="">Home</a></li>
-            <li><a href="preston-5.html" class="active">Preston</a></li>
+            <li><a href="preston-6.html" class="active">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
             <li><a href="">Storm Center</a></li>
@@ -49,10 +50,10 @@
                     <h3>Weather Summary</h3>
                     <hr>
                     <p>Currently: <span>Sunny</span></p>
-                    <p>High: <span>76 °F</span></p>
-                    <p>Wind Chill: <span>73 °F</span></p>
+                    <p>High: <span><span id="high">48</span> °F</span></p>
+                    <p>Wind Chill: <span><span id="wind-chill"></span> °F</span></p>
                     <p>Humidity: <span>69%</span></p>
-                    <p>Wind Speed: <span>5 mph</span></p>
+                    <p>Wind Speed: <span><span id="wind-speed">5</span> mph</span></p>
                 </section>
             </div>
             <div id="forecast">
