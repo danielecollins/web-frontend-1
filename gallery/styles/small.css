@@ -1,0 +1,98 @@
+@media only screen and (max-width: 580px) {
+    aside {
+        font-size: large;
+    }
+    
+    .header-content {
+        display: inline;
+        text-align: center;
+    }
+
+    .site-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        background-color: #2e294e;
+        border-top: 3px solid #ffd151;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: inline;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+        justify-self: center;
+        border-bottom: 3px solid #ffd151;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .responsive li {
+        display: inline;
+    }
+    
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .section {
+        border-radius: 10px;
+    }
+
+    #weather-summary {
+        position: initial;
+        top: initial;
+        left: initial;
+        width: auto;
+    }
+
+    #forecast-table td img {
+        width: 50px;
+    }
+
+    #article img {
+        margin-left: 25%;
+        float: none;
+    }
+
+    #article {
+        min-height: none;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: small;
+    }
+
+    .social-media img {
+        height: 42px;
+        padding: 5% 3%;
+    }
+
+    .map img {
+        height: 150px;
+    }
+}

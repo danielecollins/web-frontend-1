@@ -1,0 +1,291 @@
+body {
+    display: inline;
+    background-color: #daffef;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #6f1a07;
+    color: white;
+    padding: 2%;
+}
+
+/*Header*/
+header {
+    background-color: #2e294e;
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: xx-large;
+    width: 100%;
+    border-top: 8px solid #ffd151;
+}
+
+.header-content {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+.site-logo {
+    height: 100px;
+    border-radius: 25px;
+}
+
+.header-words {
+    padding-left: 2%;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.yellow-letter {
+    color: #ffd151;
+}
+
+.motto {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    padding-left: 2%;
+}
+
+/*Nav*/
+.navigation {
+    border-top: 3px solid #ffd151;
+    background-color: #2e294e;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: xx-large;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    display: block;
+	padding: 0.75rem;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.navigation a:hover {
+    text-decoration: underline ;
+}
+
+.active {
+    color:#ffd151 !important;
+    
+}
+
+/*Main*/
+main {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-content {
+    padding-bottom: 3%;
+    padding-top: 0;
+}
+
+h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+hr {
+    background-color: #ffd151;
+	height: 1px;
+}
+
+.section {
+    background-color: #a6b1e1;
+    padding: 15px;
+    border: 2px solid #2e294e;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*herodiv*/
+#herodiv {
+    position: relative;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#weather-summary {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 25%;
+    opacity: 0.9;
+}
+
+#weather-summary h3 {
+    text-align: center;
+    margin: 2% 0;
+}
+
+#weather-summary hr {
+    margin: 2% 0;
+}
+
+#weather-summary p {
+    margin: 2% 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+#weather-summary p span{
+    font-weight:lighter;
+}
+
+/*5 day forecast*/
+#forecast {
+    margin: 3% 0;
+}
+#forecast h3 {
+    text-align: center;
+}
+
+#forecast table {
+    margin: 0 auto;
+}
+
+#forecast-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+}
+
+#forecast-table thead tr {
+    background-color: #a6b1e1;
+    font-weight: bold;
+}
+
+#forecast-table tbody td {
+    background-color: white;
+    text-align: center;
+}
+
+#forecast-table th {
+    padding: 5px 10px;
+    border: 1px solid #2e294e;
+}
+
+#forecast-table td {
+    padding: 20px 10px;
+    border: 1px solid #2e294e;
+}
+
+/*Article*/
+#article {
+    min-height: 32rem;
+}
+
+#article h3{
+    text-align: center;
+}
+
+#article img {
+    width: 50%;
+    float: right;
+}
+
+/*Footer*/
+footer {
+    background-color: #2e294e;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    font-size: x-large;
+    border-bottom: 8px solid #ffd151;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 15px;
+    display: inline;
+}
+
+#contact-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #a6b1e1;
+    color: black;
+    padding: 2% 3%;
+}
+
+.contact-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.contact-info p {
+    margin: 0;
+    text-align: left;
+}
+
+.social-media img {
+    padding: 5% 5%;
+}
+
+.map {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+.map img{
+    height: 200px;
+    margin: 2% 0;
+}
+
+#footer-text { 
+    padding-top: 10px;
+}
+
+#portal-link {
+    color: #ffd151;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

@@ -6,7 +6,7 @@ body {
 
 .fade-in {
     opacity: 0;
-    transition: opacity 1000ms ease-in 500ms;
+    transition: opacity 1000ms ease-in;
 }
 
 .fade-in.appear {
