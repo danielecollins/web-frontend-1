@@ -57,26 +57,6 @@
         border-radius: 10px;
     }
 
-    #weather-summary {
-        position: initial;
-        top: initial;
-        left: initial;
-        width: auto;
-    }
-
-    #forecast-table td img {
-        width: 50px;
-    }
-
-    #article img {
-        margin-left: 25%;
-        float: none;
-    }
-
-    #article {
-        min-height: none;
-    }
-
     footer {
         margin-left: 0px;
         margin-right: 0px;

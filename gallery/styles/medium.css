@@ -9,17 +9,6 @@
         margin-left: 2%;
     }
 
-    #weather-summary {
-        position: initial;
-        top: initial;
-        left: initial;
-        width: auto;
-    }
-
-    #article {
-        min-height: 25rem;
-    }
-
     footer {
         margin-left: 0px;
         margin-right: 0px;
