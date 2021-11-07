@@ -7,6 +7,7 @@
 
     h2 {
         margin-left: 2%;
+        margin-top: 4%;
     }
 
     /*Picture Grid*/
@@ -16,7 +17,7 @@
         column-gap: 4%;
         row-gap: 2%;
 
-        padding: 12% 5.2% 12% 4.8%;
+        padding: 9.5% 5.2% 12% 4.8%;
     }
 
     /*Footer*/

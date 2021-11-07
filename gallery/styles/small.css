@@ -49,6 +49,7 @@
 
     h2 {
         text-align: center;
+        margin-top: 5%;
     }
 
     .section {
@@ -63,7 +64,7 @@
         padding-top: 35%;
         padding-bottom: 35%;
 
-        padding: 35% 5.8% 35% 5%;
+        padding: 30% 5.8% 35% 5%;
     }
 
     /*Footer*/
