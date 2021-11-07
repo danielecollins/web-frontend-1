@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1250px) and (min-width: 580px) {
-    
+    /*Main*/
     main {
         margin-left: 0px;
         margin-right: 0px;
@@ -9,6 +9,17 @@
         margin-left: 2%;
     }
 
+    /*Picture Grid*/
+
+    .picture-grid {
+        grid-template-columns: 50% 50%;
+        column-gap: 4%;
+        row-gap: 2%;
+
+        padding: 12% 5.2% 12% 4.8%;
+    }
+
+    /*Footer*/
     footer {
         margin-left: 0px;
         margin-right: 0px;

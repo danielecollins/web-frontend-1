@@ -1,8 +1,5 @@
 @media only screen and (max-width: 580px) {
-    aside {
-        font-size: large;
-    }
-    
+    /*Header*/
     .header-content {
         display: inline;
         text-align: center;
@@ -43,6 +40,7 @@
         display: inline;
     }
     
+    /*Main*/
     main {
         margin-left: 0px;
         margin-right: 0px;
@@ -57,6 +55,18 @@
         border-radius: 10px;
     }
 
+    /*Picture Grid*/
+
+    .picture-grid {
+        grid-template-columns: 100%;
+        row-gap: 1%;
+        padding-top: 35%;
+        padding-bottom: 35%;
+
+        padding: 35% 5.8% 35% 5%;
+    }
+
+    /*Footer*/
     footer {
         margin-left: 0px;
         margin-right: 0px;
