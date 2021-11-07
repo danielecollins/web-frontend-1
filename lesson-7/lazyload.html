@@ -5,25 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazy Loader</title>
-    <link rel="stylesheet" href="script.css"/>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="scripts/animation.js" defer></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
     <h1>Progressive Loading of Images</h1>
-    <picture>
-        <img>
+    <picture class="fade-in">
+        <source data-src="images/testimg1.png">
+        <img src="images/placeholder.png" alt="Image">
     </picture>
-    <picture>
-        <img>
+    <picture class="fade-in">
+        <source data-src="images/testimg2.png">
+        <img src="images/placeholder.png" alt="Image">
     </picture>
-    <picture>
-        <img>
+    <picture class="fade-in">
+        <source data-src="images/testimg3.png">
+        <img src="images/placeholder.png" alt="Image">
     </picture>
-    <picture>
-        <img>
+    <picture class="fade-in">
+        <source data-src="images/testimg4.png">
+        <img src="images/placeholder.png" alt="Image">
     </picture>
-    <picture>
-        <img>
+    <picture class="fade-in">
+        <source data-src="images/testimg5.png">
+        <img src="images/placeholder.png" alt="Image">
     </picture>
 </body>
 </html>

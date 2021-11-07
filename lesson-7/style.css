@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in 500ms;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
