@@ -144,6 +144,10 @@ h3 {
     padding: 4% 3.5% 8% 3.2%;
 }
 
+.pic-and-text:hover {
+    box-shadow: 10px 10px 20px rgb(39, 39, 39);
+}
+
 .pic-and-text picture {
     display: block;
     margin-left: auto;

@@ -11,13 +11,16 @@
     }
 
     /*Picture Grid*/
-
     .picture-grid {
         grid-template-columns: 50% 50%;
         column-gap: 4%;
         row-gap: 2%;
 
         padding: 9.5% 5.2% 12% 4.8%;
+    }
+
+    .pic-and-text:hover {
+        box-shadow: none;
     }
 
     /*Footer*/
