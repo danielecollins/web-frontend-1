@@ -1,0 +1,92 @@
+@media only screen and (max-width: 580px) {
+    /*Header*/
+    .header-content {
+        display: inline;
+        text-align: center;
+    }
+
+    .site-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        background-color: #2e294e;
+        border-top: 3px solid #ffd151;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: inline;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+        justify-self: center;
+        border-bottom: 3px solid #ffd151;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .responsive li {
+        display: inline;
+    }
+    
+    /*Main*/
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .section {
+        border-radius: 10px;
+    }
+
+    /*Picture Grid*/
+    .picture-grid {
+        grid-template-columns: 100%;
+        row-gap: 1%;
+        padding-top: 35%;
+        padding-bottom: 35%;
+
+        padding: 30% 5.8% 35% 5%;
+    }
+
+    .pic-and-text:hover {
+        box-shadow: none;
+    }
+
+    /*Footer*/
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: small;
+    }
+
+    .social-media img {
+        height: 42px;
+        padding: 5% 3%;
+    }
+
+    .map img {
+        height: 150px;
+    }
+}

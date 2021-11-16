@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1250px) and (min-width: 580px) {
+    /*Main*/
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h2 {
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+
+    /*Picture Grid*/
+    .picture-grid {
+        grid-template-columns: 50% 50%;
+        column-gap: 4%;
+        row-gap: 2%;
+
+        padding: 9.5% 5.2% 12% 4.8%;
+    }
+
+    .pic-and-text:hover {
+        box-shadow: none;
+    }
+
+    /*Footer*/
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: large;
+    }
+
+    .social-media img {
+        height: 50px;
+    }
+}
