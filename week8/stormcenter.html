@@ -15,6 +15,7 @@
     <script src="scripts/lazyloader.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/storm_center.js" defer></script>
 </head>
 <body>
     <header>
@@ -41,8 +42,43 @@
         <h2>Storm Center</h2>
         <form method="get" action="thanks.html">
             <h3>Report a Storm</h3>
-            <input type="text" name="full-name" required pattern="[A-Za-z]{5}">
-            
+            <input type="text" name="full_name" pattern="[A-Za-z ]{5,}" required>
+            <input type="email" name="email" placeholder="demo@gmail.com">
+            <input type="tel" name="phone_number" required>
+            <input type="number" name="zip_code" required>
+            <input type="date" name="storm_date">
+            <input list="storm-type" name="storm_type">
+            <datalist id="storm-type">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+            <label>
+                Storm Severity:&nbsp;
+                <input type="range" id="storm-severity" name="storm_severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                <span id="severity-value">5</span>
+            </label>
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
+            <select name="storm_region">
+                <option selected disabled>Select Region ...</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select>
         </form>
     </main>
     <footer>
