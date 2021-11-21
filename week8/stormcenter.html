@@ -43,10 +43,15 @@
         <form method="get" action="thanks.html">
             <h3>Report a Storm</h3>
             <input type="text" name="full_name" pattern="[A-Za-z ]{5,}" required>
+            <br>
             <input type="email" name="email" placeholder="demo@gmail.com">
+            <br>
             <input type="tel" name="phone_number" required>
+            <br>
             <input type="number" name="zip_code" required>
+            <br>
             <input type="date" name="storm_date">
+            <br>
             <input list="storm-type" name="storm_type">
             <datalist id="storm-type">
                 <option value="Flash Flood"></option>
@@ -55,6 +60,7 @@
                 <option value="Thunderstorm"></option>
                 <option value="Tornado"></option>
             </datalist>
+            <br>
             <label>
                 Storm Severity:&nbsp;
                 <input type="range" id="storm-severity" name="storm_severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
@@ -73,12 +79,36 @@
                 <option value="9">
                 <option value="10">
             </datalist>
+            <br>
             <select name="storm_region">
                 <option selected disabled>Select Region ...</option>
                 <option value="Preston">Preston</option>
                 <option value="Soda Springs">Soda Springs</option>
                 <option value="Fish Haven">Fish Haven</option>
             </select>
+            <br>
+            <label>
+                Are you in danger?
+                <br>
+                <label>
+                    <input type="radio" name="user_in-danger_level" value="yes">
+                    yes
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="user_in-danger_level" value="maybe">
+                    maybe
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="user_in-danger_level" value="no">
+                    no
+                </label>
+            </label>
+            <br>
+            <input type="textarea" name="additional_information_or_comments">
+            <br>
+            <input type="submit" name="form_submission_button">
         </form>
     </main>
     <footer>
