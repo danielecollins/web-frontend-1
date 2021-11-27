@@ -42,17 +42,41 @@
         <h2>Storm Center</h2>
         <form method="get" action="thanks.html">
             <h3>Report a Storm</h3>
-            <input type="text" name="full_name" pattern="[A-Za-z ]{5,}" required>
+            <label>
+                Full Name
+                <br>
+                <input type="text" name="full_name" pattern="[A-Za-z ]{5,}" required>
+            </label>
             <br>
-            <input type="email" name="email" placeholder="demo@gmail.com">
+            <label>
+                Email
+                <br>
+                <input type="email" name="email" placeholder="demo@gmail.com">
+            </label>
             <br>
-            <input type="tel" name="phone_number" required>
+            <label>
+                Phone Number
+                <br>
+                <input type="tel" name="phone_number" required>
+            </label>
             <br>
-            <input type="number" name="zip_code" required>
+            <label>
+                Zip Code
+                <br>
+                <input type="number" name="zip_code" required>
+            </label>
             <br>
-            <input type="date" name="storm_date">
+            <label>
+                Storm Date
+                <br>
+                <input type="date" name="storm_date">
+            </label>
             <br>
-            <input list="storm-type" name="storm_type">
+            <label>
+                Storm Type
+                <br>
+                <input list="storm-type" name="storm_type">
+            </label>
             <datalist id="storm-type">
                 <option value="Flash Flood"></option>
                 <option value="Hail"></option>
@@ -62,7 +86,8 @@
             </datalist>
             <br>
             <label>
-                Storm Severity:&nbsp;
+                Storm Severity
+                <br>
                 <input type="range" id="storm-severity" name="storm_severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
                 <span id="severity-value">5</span>
             </label>
@@ -80,12 +105,16 @@
                 <option value="10">
             </datalist>
             <br>
-            <select name="storm_region">
-                <option selected disabled>Select Region ...</option>
-                <option value="Preston">Preston</option>
-                <option value="Soda Springs">Soda Springs</option>
-                <option value="Fish Haven">Fish Haven</option>
-            </select>
+            <label>
+                Storm Region
+                <br>
+                <select name="storm_region">
+                    <option selected disabled>Select Region ...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
             <br>
             <label>
                 Are you in danger?
@@ -106,7 +135,11 @@
                 </label>
             </label>
             <br>
-            <input type="textarea" name="additional_information_or_comments">
+            <label>
+                Additional Information or Comments
+                <br>
+                <input type="textarea" name="additional_information_or_comments">
+            </label>
             <br>
             <input type="submit" name="form_submission_button">
         </form>
