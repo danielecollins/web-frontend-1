@@ -56,18 +56,23 @@
         border-radius: 10px;
     }
 
-    /*Picture Grid*/
-    .picture-grid {
-        grid-template-columns: 100%;
-        row-gap: 1%;
-        padding-top: 35%;
-        padding-bottom: 35%;
-
-        padding: 30% 5.8% 35% 5%;
+    /*Form*/
+    form {
+        font-size: x-large;
+        padding-bottom: 5%;
+        max-width: 100%;
     }
 
-    .pic-and-text:hover {
-        box-shadow: none;
+    .field {
+        font-size: x-large;
+    }
+
+    input {
+        max-width: 200px;
+    }
+
+    .submit {
+        font-size: xx-large;
     }
 
     /*Footer*/
