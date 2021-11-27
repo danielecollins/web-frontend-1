@@ -162,6 +162,12 @@ form {
     border-radius: 25px;
 }
 
+/*Thank you page*/
+.thank-you {
+    text-align: center;
+    margin: 10%;
+}
+
 /*Footer*/
 footer {
     background-color: #2e294e;
