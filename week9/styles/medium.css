@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1250px) and (min-width: 580px) {
+    /*Main*/
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h2 {
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+
+    /*Footer*/
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: large;
+    }
+
+    .social-media img {
+        height: 50px;
+    }
+}
