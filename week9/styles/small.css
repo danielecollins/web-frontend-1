@@ -56,23 +56,9 @@
         border-radius: 10px;
     }
 
-    /*Form*/
-    form {
-        font-size: x-large;
-        padding-bottom: 5%;
-        max-width: 100%;
-    }
-
-    .field {
-        font-size: x-large;
-    }
-
-    input {
-        max-width: 200px;
-    }
-
-    .submit {
-        font-size: xx-large;
+    /*City Cards*/
+    .cards {
+        display: inline;
     }
 
     /*Footer*/

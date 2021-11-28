@@ -108,31 +108,61 @@ main {
     padding-bottom: 3%;
 }
 
-h2 {
-    color:#2e294e;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    text-align: center;
-}
-
 hr {
     background-color: #ffd151;
 	height: 1px;
-}
-
-.section {
-    background-color: #a6b1e1;
-    padding: 15px;
-    border: 2px solid #2e294e;
-    border-radius: 15px;
-    margin-top: 10px;
 }
 
 h3 {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
 /*City Cards*/
+.cards {
+    display: grid;
+    grid-template-columns: 31.33% 31.33% 31.33%;
+    column-gap: 3%;
+}
+
+.cards section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+
+    background-color: #2e294e;
+    padding: 15px;
+    border: 2px solid #ffd151;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cards h2 {
+    color: white;
+    margin-bottom: .5%;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 250%;
+    text-shadow: 0 0 10px #ffd151;
+}
+
+.cards .motto {
+    font-style: italic;
+    font-size: smaller;
+    margin-bottom: 10%;
+    color: #a6b1e1;
+}
+
+.cards p {
+    color: white;
+    margin: 3%;
+}
+
+.cards section img {
+    width: 100%;
+    margin-top: 10%;
+}
 
 /*Footer*/
 footer {
