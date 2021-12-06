@@ -1,4 +1,4 @@
-let t = document.getElementById('high').innerHTML;
+let t = document.getElementById('current-temp').innerHTML;
 let s = document.getElementById('wind-speed').innerHTML;
 
 if (t <= 50 && s > 4.8)
