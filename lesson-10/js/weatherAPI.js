@@ -9,7 +9,7 @@ fetch(url)
       return response.json();
    })
    .then((jsonObjct) => {
-      console.table(jsonObjct);
+      // console.table(jsonObjct);
       todaysWeather(jsonObjct);
       fiveDayForecast(jsonObjct);
    });
