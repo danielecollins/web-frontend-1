@@ -1,4 +1,4 @@
-const url = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=648a12c71259cde04182773e260843c2";
+const url = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=648a12c71259cde04182773e260843c2";
 
 function toF(kelvinTemp) {
    return Math.round(9 / 5 * (kelvinTemp - 273.15) + 32)
