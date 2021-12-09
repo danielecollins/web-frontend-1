@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1250px) and (min-width: 580px) {
-    
+    /*Main*/
     main {
         margin-left: 0px;
         margin-right: 0px;
@@ -7,8 +7,11 @@
 
     h2 {
         margin-left: 2%;
+        /*Stormcenter*/
+        margin-top: 4%;
     }
 
+    /*City Pages*/
     #weather-summary {
         position: initial;
         top: initial;
@@ -20,6 +23,51 @@
         min-height: 25rem;
     }
 
+    /*Picture Grid*/
+    .picture-grid {
+        grid-template-columns: 50% 50%;
+        column-gap: 4%;
+        row-gap: 2%;
+
+        padding: 9.5% 5.2% 12% 4.8%;
+    }
+
+    .pic-and-text:hover {
+        box-shadow: none;
+    }
+
+    /*City Cards*/
+    .cards {
+        display: inline;
+    }
+
+    .cards section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .cards .motto {
+        margin-top: .5%;
+        margin-bottom: 6%;
+    }
+
+    .cards section img {
+        margin: 0;
+    }
+
+    .cards section:nth-child(even) div {
+        grid-column: 2;
+        
+    }
+
+    .cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    /*Footer*/
     footer {
         margin-left: 0px;
         margin-right: 0px;

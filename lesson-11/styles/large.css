@@ -168,7 +168,6 @@ h3 {
 #weather-summary p span{
     font-weight:lighter;
 }
-
 /*5 day forecast*/
 #forecast {
     margin: 3% 0;
@@ -203,7 +202,6 @@ h3 {
     padding: 20px 10px;
     border: 1px solid #2e294e;
 }
-
 /*Article*/
 #article {
     min-height: 32rem;
@@ -216,6 +214,152 @@ h3 {
 #article img {
     width: 50%;
     float: right;
+}
+
+/*Picture Grid*/
+.picture-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 3.9%;
+    row-gap: 3.9%;
+    justify-content: center;
+    align-content: center;
+
+    padding: 4% 3.5% 6.5% 3.2%;
+}
+
+.pic-and-text:hover {
+    box-shadow: 0 0 20px rgb(39, 39, 39);
+}
+
+.pic-and-text picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    text-align: center;
+}
+
+.pic-and-text picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    width: 100%;
+
+    background-color: #2e294e;
+    border: 2px solid #2e294e;
+    border-bottom: none;
+
+    text-align: center;
+}
+
+.pic-and-text div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    background-color: #a6b1e1;
+    border: 2px solid #2e294e;
+    border-top: none;
+
+    text-align: center;
+    font-size: 90%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/*Lazy load animation*/
+.fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+/*City Cards*/
+.cards {
+    display: grid;
+    grid-template-columns: 31.33% 31.33% 31.33%;
+    column-gap: 3%;
+}
+
+.cards section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+
+    background-color: #2e294e;
+    padding: 15px;
+    border: 2px solid #ffd151;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cards h2 {
+    color: white;
+    margin-bottom: .5%;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 250%;
+    text-shadow: 0 0 10px #ffd151;
+}
+
+.cards .motto {
+    font-style: italic;
+    font-size: smaller;
+    margin-bottom: 10%;
+    color: #a6b1e1;
+}
+
+.cards p {
+    color: white;
+    margin: 3%;
+}
+
+.cards section img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+/*Form*/
+.white-text {
+    color: white;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #2e294e;
+    border-top: 8px solid #ffd151;
+    padding: 2%;
+    padding-top: .5%;
+    margin-bottom: 2%;
+}
+
+.field {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.submit {
+    color:#2e294e;
+    background-color: white;
+    border-color: white;
+    border-radius: 25px;
+}
+/*Thank you page*/
+.thank-you {
+    text-align: center;
+    margin: 10%;
 }
 
 /*Footer*/
@@ -277,7 +421,4 @@ footer {
 #portal-link {
     color: #ffd151;
 }
-
-
-
 

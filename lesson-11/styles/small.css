@@ -1,4 +1,5 @@
 @media only screen and (max-width: 580px) {
+    /*Header*/
     aside {
         font-size: large;
     }
@@ -16,6 +17,7 @@
         height: auto;
     }
 
+    /*Nav*/
     nav {
         width: 100%;
         background-color: #2e294e;
@@ -43,6 +45,7 @@
         display: inline;
     }
     
+    /*Main*/
     main {
         margin-left: 0px;
         margin-right: 0px;
@@ -51,12 +54,14 @@
 
     h2 {
         text-align: center;
+        margin-top: 5%;
     }
 
     .section {
         border-radius: 10px;
     }
 
+    /*City Pages*/
     #weather-summary {
         position: initial;
         top: initial;
@@ -77,6 +82,45 @@
         min-height: none;
     }
 
+    /*Picture Grid*/
+    .picture-grid {
+        grid-template-columns: 100%;
+        row-gap: 1%;
+        padding-top: 35%;
+        padding-bottom: 35%;
+
+        padding: 30% 5.8% 35% 5%;
+    }
+
+    .pic-and-text:hover {
+        box-shadow: none;
+    }
+
+    /*Form*/
+    form {
+        font-size: x-large;
+        padding-bottom: 5%;
+        max-width: 100%;
+    }
+
+    .field {
+        font-size: x-large;
+    }
+
+    input {
+        max-width: 200px;
+    }
+
+    .submit {
+        font-size: xx-large;
+    }
+
+    /*City Cards*/
+    .cards {
+        display: inline;
+    }
+
+    /*Footer*/
     footer {
         margin-left: 0px;
         margin-right: 0px;
