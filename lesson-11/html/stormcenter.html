@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+
+    <script src="scripts/webfontload.js" defer></script>
+    <script src="scripts/lazyloader.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/storm_center.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/weather_watchers_logo.png" alt="Weather Watchers logo" class="site-logo">
+            <div class="header-words">
+                <h1><span class="yellow-letter">W</span>eather <span class="yellow-letter">W</span>atchers</h1>
+                <div class="motto">The weather site catch phrase/motto</div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="../week9/index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="../week7/gallery/gallery-7.html">Gallery</a></li>
+        </ul>   
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+            <h3 class="white-text">Report a Storm</h3>
+            <div class="section">
+                <h4>Personal Info</h4>
+                <div class="field">
+                    <label>
+                        Full Name
+                        <br>
+                        <input type="text" name="full_name" pattern="[A-Za-z ]{5,}" required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Email
+                        <br>
+                        <input type="email" name="email" placeholder="demo@gmail.com">
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Phone Number
+                        <br>
+                        <input type="tel" name="phone_number" required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Zip Code
+                        <br>
+                        <input type="number" name="zip_code" required>
+                    </label>
+                </div>
+            </div>
+            <div class="section">
+                <h4>Storm Info</h4>
+                <div class="field">
+                    <label>
+                        Storm Date
+                        <br>
+                        <input type="date" name="storm_date">
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Storm Type
+                        <br>
+                        <input list="storm-type" name="storm_type">
+                    </label>
+                    <datalist id="storm-type">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </div>
+                <div class="field">
+                    <label>
+                        Storm Severity
+                        <br>
+                        <input type="range" id="storm-severity" name="storm_severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                        <span id="severity-value">5</span>
+                    </label>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+                </div>
+                <div class="field">
+                    <label>
+                        Storm Region
+                        <br>
+                        <select name="storm_region">
+                            <option selected disabled>Select Region ...</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Are you in danger?
+                        <br>
+                        <label>
+                            <input type="radio" name="user_in-danger_level" value="yes">
+                            yes
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="user_in-danger_level" value="maybe">
+                            maybe
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="user_in-danger_level" value="no">
+                            no
+                        </label>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Additional Information or Comments
+                        <br>
+                        <input type="textarea" name="additional_information_or_comments">
+                    </label>
+                </div>
+            </div>
+            <br>
+            <input class="submit" type="submit" name="form_submission_button">
+        </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <section id="contact-section">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>208 Weather Way Rexburg, Idaho 83440</p>
+                    <p>(111) 111-1111</p>
+                    <p>weatherwatchers001@ww.com</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="facebook logo"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="instagram logo"></a>
+                        <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter_logo.png" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="images/location_map.jpg" alt="location map">
+                </div>
+            </section>
+            <div id="footer-text">&copy; <span id="year">2021</span> | <a id="portal-link" href="../index.html">Daniel E. Collins</a> | <span id="date"></span></div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
