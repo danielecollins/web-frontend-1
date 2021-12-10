@@ -211,9 +211,17 @@ h3 {
     text-align: center;
 }
 
+.author {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+}
+
 #article img {
-    width: 50%;
     float: right;
+    width: 40%;
+    border: 3px solid #2e294e;
+    background-color: #2e294e;
 }
 
 /*Picture Grid*/
@@ -224,7 +232,6 @@ h3 {
     row-gap: 3.9%;
     justify-content: center;
     align-content: center;
-
     padding: 4% 3.5% 6.5% 3.2%;
 }
 

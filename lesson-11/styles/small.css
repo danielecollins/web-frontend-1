@@ -74,8 +74,11 @@
     }
 
     #article img {
-        margin-left: 25%;
         float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
     }
 
     #article {
