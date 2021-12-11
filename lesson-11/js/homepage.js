@@ -7,7 +7,7 @@ fetch(towndataJSON)
     .then(function (jsonObject) {
         console.table(jsonObject);
         const towns = jsonObject['towns'];
-        for (let i = 0; i < towns.length; i++) {
+        for (let i = 0; i < towns.length; i++)
             if (towns[i].name === "Soda Springs" || towns[i].name === "Fish Haven" || towns[i].name === "Preston")
             {
                 let card = document.createElement('section');
@@ -24,8 +24,7 @@ fetch(towndataJSON)
                 motto.setAttribute('class', 'motto');
                 yearFounded.textContent = `Year Founded: ${towns[i].yearFounded}`;
                 population.textContent = `Population: ${towns[i].currentPopulation}`;
-                annualRainfall.textContent = `Annual Rainfall: ${towns[i].averageRainfall}`;
-                
+                annualRainfall.textContent = `Annual Rainfall: ${towns[i].averageRainfall}`; 
                 image.setAttribute('src', 'images/' + towns[i].photo);
                 image.setAttribute('alt', "picture of the outdoors");
 
@@ -38,6 +37,5 @@ fetch(towndataJSON)
                 card.appendChild(image);
 
                 document.querySelector('div.cards').appendChild(card);
-            } 
-        }
+            }
     })

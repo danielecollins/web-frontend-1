@@ -131,6 +131,7 @@ hr {
 h3 {
     margin-top: 1%;
     margin-bottom: 1%;
+    text-align: center;
 }
 
 /*herodiv*/
@@ -151,7 +152,6 @@ h3 {
 }
 
 #weather-summary h3 {
-    text-align: center;
     margin: 2% 0;
 }
 
@@ -171,9 +171,6 @@ h3 {
 /*5 day forecast*/
 #forecast {
     margin: 3% 0;
-}
-#forecast h3 {
-    text-align: center;
 }
 
 #forecast-table {
@@ -205,10 +202,7 @@ h3 {
 /*Article*/
 #article {
     min-height: 32rem;
-}
-
-#article h3{
-    text-align: center;
+    
 }
 
 .author {
@@ -222,6 +216,14 @@ h3 {
     width: 40%;
     border: 3px solid #2e294e;
     background-color: #2e294e;
+}
+/*Upcoming Events*/
+#upcoming-events {
+    margin-bottom: 3%;
+}
+
+#events {
+    text-align: center;
 }
 
 /*Picture Grid*/
