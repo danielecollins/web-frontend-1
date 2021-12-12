@@ -1,4 +1,3 @@
-
 const sources = document.querySelectorAll("source");
 
 function preloadImage(src) {

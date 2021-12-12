@@ -140,6 +140,43 @@ hr {
     margin-top: 0;
 }
 
+/*5 day forecast*/
+#forecast {
+    margin: 3% 0;
+}
+
+#forecast h3, #forecast p {
+    text-align: center;
+}
+
+#forecast-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    width: 75%;
+}
+
+#forecast-table thead tr {
+    background-color: #680504;
+    color: white;
+    font-weight: bold;
+}
+
+#forecast-table tbody td {
+    background-color: white;
+    text-align: center;
+}
+
+#forecast-table th {
+    padding: 5px 10px;
+    border: 1px solid #680504;
+}
+
+#forecast-table td {
+    padding: 20px 10px;
+    border: 1px solid #5f5e5f
+}
+
 /*About Us & Our Partners*/
 #three-sections{
     display: grid;
