@@ -189,10 +189,6 @@ hr {
     color: black;
 }
 
-#three-sections a:hover {
-    box-shadow: 0 0 20px #5f5e5f;
-}
-
 #a1, #a2{
     border-bottom: 1px solid #5f5e5f;
 }
@@ -225,6 +221,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+}
+
+#ad-gallery h3 p {
+    margin-top: 0;
 }
 
 .caption {

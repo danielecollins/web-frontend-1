@@ -47,6 +47,11 @@
         grid-row: 1;
     }
 
+    /*About Us & Our Partners*/
+    #three-sections a:hover {
+        box-shadow: 0 0 20px #5f5e5f;
+    }
+
     /*Our Work*/
     #ad-gallery {
         display: grid;
