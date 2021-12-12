@@ -227,6 +227,10 @@ hr {
     width: 95%;
 }
 
+.caption {
+    display: none;
+}
+
 /*Lazy load animation*/
 .fade-in {
     opacity: 0;
@@ -235,10 +239,6 @@ hr {
 
 .fade-in.appear {
     opacity: 1;
-}
-
-.caption {
-    display: none;
 }
 
 /*Contact Us*/
@@ -286,6 +286,11 @@ h4 {
 .field {
     margin-bottom: 15px;
     font-size: large;
+}
+
+#message {
+    justify-content: flex-start;
+    width: 99%;
 }
 
 .submit {
