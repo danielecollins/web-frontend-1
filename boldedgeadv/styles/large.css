@@ -47,21 +47,34 @@
         grid-template-columns: 33% 33% 33%;
     }
     
-    /*About Us*/
-    #about-us{
+    /*About Us & Our Partners*/
+    #three-sections{
         text-align: center;
         grid-template-columns: 30% 30% 30%;
-        
+    }
+
+    #a1 {
+        border-right: 1px solid #5f5e5f;
+    }
+
+    #a2 {
+        border-right: 1px solid #5f5e5f;
     }
 
     #section-1 {
-        border-right: 1px solid #5f5e5f;
+        
         border-bottom: none;
+        padding-right: 5%;
     }
     
     #section-2 {
-        border-right: 1px solid #5f5e5f;
         border-bottom: none;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #section-3 {
+        padding-left: 5%;
     }
 
     /*Our Work*/

@@ -5,15 +5,13 @@ body {
 
 .italics {
     font-style: italic;
-    color: #5f5e5f;
+    color: #5f5e5f !important;
 }
 
 /*Header*/
 header {
-    
     text-align: center;
     font-family: 'Times New Roman', serif;
-    /* background-color: #f7f7f6; */
 }
 
 #h1-first-line {
@@ -142,19 +140,28 @@ hr {
     margin-top: 0;
 }
 
-/*About Us*/
-#about-us{
+/*About Us & Our Partners*/
+#three-sections{
     display: grid;
     text-align: center;
     justify-content: center;
 }
 
-#section-1 {
+#three-sections a {
+    text-decoration: none;
+    color: black;
+}
+
+#three-sections a:hover {
+    box-shadow: 0 0 20px #5f5e5f;
+}
+
+#section-1, #section-2 {
     border-bottom: 1px solid #5f5e5f;
 }
 
-#section-2 {
-    border-bottom: 1px solid #5f5e5f;
+.partner-sections {
+    padding-bottom: 5%;
 }
 
 /*Our Work*/
