@@ -146,6 +146,11 @@
         align-self: top;
     }
 
+    /*Contact Us*/
+    #contact-us {
+        text-align: left;
+    }
+
     /*Footer*/
     footer {
         width: 80%;
