@@ -1,4 +1,4 @@
-const recentworkJSON = 'recentwork.json';
+const recentworkJSON = 'work.json';
 
 fetch(recentworkJSON)
     .then(function(response) {
