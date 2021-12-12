@@ -1,6 +1,11 @@
 {
     "partners": [
         {
+            "name": "The Church of Jesus Christ of Latter Day Saints",
+            "date": "December 2021",
+            "ads": ["churchofjcad.jpg"]
+        },
+        {
             "name": "Grease Monkey",
             "date": "November 2021",
             "ads": ["greasemonkeyad.jpg"]
@@ -9,11 +14,6 @@
             "name": "The Dent Shop",
             "date": "November 2021",
             "ads": ["thedentshopad.jpg"]
-        },
-        {
-            "name": "The Church of Jesus Christ of Latter Day Saints",
-            "date": "December 2021",
-            "ads": ["churchofjcad.jpg"]
         }
     ]
 }
