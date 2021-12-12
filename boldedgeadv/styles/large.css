@@ -64,6 +64,72 @@
         border-bottom: none;
     }
 
+    /*Our Work*/
+    #ad-gallery {
+        display: grid;
+        grid-template-columns: 1 1 1;
+        grid-template-rows: 1 1 1;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+        margin: 3% auto 0;
+        background-color: #680504;
+        padding: 0 0 2%;
+    }
+
+    #ad-gallery img:hover {
+        box-shadow: 0 0 30px white;
+    }
+
+    #ad-gallery h3 {
+        grid-row: 1;
+        height: 50px;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    #ad-gallery br {
+        display: none;
+    }
+
+    #lds-ad {
+        grid-row: 2;
+        grid-column: 1;
+        align-self: center;
+    }
+
+    #lds-lp {
+        grid-row: 3;
+        grid-column: 1;
+        align-self: top;
+    }
+
+    #gm-ad {
+        grid-row: 2;
+        grid-column: 2;
+        align-self: center;
+    }
+
+    #gm-lp {
+        grid-row: 3;
+        grid-column: 2;
+        align-self: top;
+    }
+
+    #ds-ad {
+        grid-row: 2;
+        grid-column: 3;
+        align-self: center;
+    }
+
+    #ds-lp {
+        grid-row: 3;
+        grid-column: 3;
+        align-self: top;
+    }
+
     /*Footer*/
     footer {
         width: 80%;

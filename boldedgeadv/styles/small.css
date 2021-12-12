@@ -160,15 +160,27 @@ hr {
 /*Our Work*/
 #ad-gallery {
     text-align: center;
+    background-color: #680504;
+    padding-top: .5%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+#ad-gallery h3{
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #ad-gallery img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid black;
-    background-color: black;
     width: 95%;
+}
+
+.caption {
+    display: none;
 }
 
 /*Footer*/
