@@ -3,15 +3,14 @@ body {
     font-family: 'Open Sans', arial, sans-serif;
 }
 
-h2 {
-    text-align: center;
-    font-size: 250%;
-    
-    margin-bottom: 0;
+.italics {
+    font-style: italic;
+    color: #5f5e5f;
 }
 
 /*Header*/
 header {
+    
     text-align: center;
     font-family: 'Times New Roman', serif;
     /* background-color: #f7f7f6; */
@@ -32,13 +31,10 @@ header {
 }
 
 /*Nav*/
-nav {
-    background-color: #680504;
-}
-
 .nav-list {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
-    font-size: xx-large;
+    background-color: #680504;
+    font-family: 'Times New Roman', serif;
+    font-size: x-large;
     list-style: none;
     padding: 0;
     margin-top: 0;
@@ -64,7 +60,7 @@ nav {
 }
 
 .nav-list a:hover {
-    text-decoration: underline;
+    color:#dbb86b !important;
 }
 
 .responsive li {
@@ -72,7 +68,35 @@ nav {
 }
 
 #active {
-    color:#dbb86b !important;
+    text-decoration: underline double white 2px;
+}
+
+#active:hover {
+    text-decoration-color: #dbb86b;
+}
+
+/*Hero*/
+#hero-image {
+    width: 100%;
+    margin-top: 2%;
+}
+
+/*Main*/
+h2 {
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 0;
+    text-decoration: underline double #680504 2px;
+}
+
+h3 {
+    font-size: 180%;
+}
+
+hr {
+    display: none;
+    background-color: #680504;
+    height: 1px;
 }
 
 /*Homepage Cards*/
@@ -81,7 +105,6 @@ nav {
 }
 
 .cards section {
-    color: #5f5e5f;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -94,15 +117,19 @@ nav {
     margin-bottom: 10%;
 }
 
+.cards div {
+    align-self: center;
+}
+
 .cards h3 {
     margin-bottom: .5%;
     font-size: 180%;
 }
 
-.cards .mrd {
+.cards .date {
     font-style: italic;
     font-size: medium;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     color: #5f5e5f;
 }
 
@@ -112,11 +139,45 @@ nav {
 
 .cards section img {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 0;
+}
+
+/*About Us*/
+#about-us{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+#section-1 {
+    border-bottom: 1px solid #5f5e5f;
+}
+
+#section-2 {
+    border-bottom: 1px solid #5f5e5f;
 }
 
 /*Footer*/
 footer {
+    display: grid;
+    justify-content:center;
     background-color: #f7f7f6;
     text-align: center;
+    padding-bottom: 3%;
+}
+
+.contact-info h3 {
+    margin-bottom: 3%;
+}
+
+#address p {
+    margin: 1%;
+}
+
+.contact-info p {
+    margin-top: 3%;
+}
+
+#footer-text {
+    margin-top: 10%;
 }

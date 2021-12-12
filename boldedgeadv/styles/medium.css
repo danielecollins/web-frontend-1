@@ -1,10 +1,21 @@
 @media only screen and (min-width: 580px) and (max-width: 1250px) {
-
-    /*Nav*/
-    #ham-icon {
-        margin-left: 90%;
+    /*Main*/
+    h2 {
+        display: grid;
+        grid-template-columns: 30% 33% 30%;
+        justify-content: center;
+        text-decoration: none;
     }
 
+    hr {
+        display: block;
+    }
+
+    /*Hero*/
+    #hero-image {
+        margin-top: 3%;
+    }
+    
     /*Homepage Cards*/
     .cards {
         display: inline;

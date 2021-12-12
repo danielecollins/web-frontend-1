@@ -15,8 +15,8 @@ fetch(recentworkJSON)
             let ad = document.createElement('img');
 
             name.textContent = partners[i].name;
-            mrd.textContent = partners[i].mostrecentdate;
-            mrd.setAttribute('class', 'mrd');
+            mrd.textContent = partners[i].date;
+            mrd.setAttribute('class', 'date');
             ad.setAttribute('src', 'images/' + partners[i].ads[0]);
             ad.setAttribute('alt', name + "Ad");
 

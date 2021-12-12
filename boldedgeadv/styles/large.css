@@ -2,6 +2,10 @@
     /*Nav*/
     .nav-list {
         display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
     }
 
     .nav-list li:first-child {
@@ -13,10 +17,63 @@
         flex: 1 1 auto;
     }
 
+    /*Hero*/
+    #hero-image {
+        display: block;
+    }
+
+    /*Main*/
+    main {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h2 {
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        justify-content: center;
+        text-decoration: none;
+        margin-bottom: 2%;
+    }
+
+    hr {
+        display: block;
+    }
+
     /*Homepage Cards*/
     .cards {
         display: grid;
-        grid-template-columns: 31.33% 31.33% 31.33%;
-        column-gap: 3%;
-    }  
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    /*About Us*/
+    #about-us{
+        text-align: center;
+        grid-template-columns: 30% 30% 30%;
+        
+    }
+
+    #section-1 {
+        border-right: 1px solid #5f5e5f;
+        border-bottom: none;
+    }
+    
+    #section-2 {
+        border-right: 1px solid #5f5e5f;
+        border-bottom: none;
+    }
+
+    /*Footer*/
+    footer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        padding-bottom: 1%;
+    }
+
+    #footer-text {
+        margin-top: 5%;
+    }
 }
