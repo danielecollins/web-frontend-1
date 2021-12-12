@@ -46,4 +46,26 @@
         grid-column: 1;
         grid-row: 1;
     }
+
+    /*Our Work*/
+    #ad-gallery h3 {
+        display: none;
+    }
+
+    #ad-gallery img{
+        width: 100%;
+    }
+
+    #ad-gallery br {
+        display: none;
+    }
+
+    #ad-gallery {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        column-gap: 40px;
+        row-gap: 40px;
+        justify-content: center;
+    }
 }

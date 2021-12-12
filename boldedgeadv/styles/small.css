@@ -157,6 +157,20 @@ hr {
     border-bottom: 1px solid #5f5e5f;
 }
 
+/*Our Work*/
+#ad-gallery {
+    text-align: center;
+}
+
+#ad-gallery img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: black;
+    width: 95%;
+}
+
 /*Footer*/
 footer {
     display: grid;
