@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1250px) {
+    /*Nav*/
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list li:first-child {
+        display: none;
+    }
+
+    .nav-list li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    /*Homepage Cards*/
+    .cards {
+        display: grid;
+        grid-template-columns: 31.33% 31.33% 31.33%;
+        column-gap: 3%;
+    }  
+}

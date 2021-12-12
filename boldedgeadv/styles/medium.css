@@ -1,0 +1,38 @@
+@media only screen and (min-width: 580px) and (max-width: 1250px) {
+
+    /*Nav*/
+    #ham-icon {
+        margin-right: 90%;
+    }
+
+    /*Homepage Cards*/
+    .cards {
+        display: inline;
+    }
+
+    .cards section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .cards .mrd {
+        margin-top: .5%;
+        margin-bottom: 6%;
+    }
+
+    .cards section img {
+        margin: 0;
+    }
+
+    .cards section:nth-child(even) div {
+        grid-column: 2;
+        
+    }
+
+    .cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
