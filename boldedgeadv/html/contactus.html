@@ -26,39 +26,58 @@
             <li><a class="ham" href="#"><img src="../images/hamburger_icon.png" alt="Menu" id="ham-icon"></a></li>
             <li><a href="../index.html">Home</a></li>
             <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="ourwork.html" id="active">Our Work</a></li>
+            <li><a href="ourwork.html">Our Work</a></li>
             <li><a href="ourpartners.html">Our Partners</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="contactus.html" id="active">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <picture>
-            <img src="../images/workheroimage.jpg" alt="Picture of the beautiful mountians" id="hero-image">
+            <img src="../images/contactheroimage.jpg" alt="Picture of the beautiful mountians" id="hero-image">
         </picture>
-        <h2><span><hr></span><span>Our Work</span><span><hr></span></h2>
-        <div id="ad-gallery">
-            <h3>The Church of Jesus Christ of Latter Day Saints</h3>
-            <img id="lds-ad" src="../images/churchofjcad.jpg" alt="Church of Jesus Christ Ad">
-            <br>
-            <div id="lds-lp">
-                <p class="caption">The Church of Jesus Christ of Latter Day Saints Landing Page</p>
-                <img src="../images/churchofjclanding.jpg" alt="Church of Jesus Christ Landing Page">
+        <h2><span><hr></span><span>Contact Us</span><span><hr></span></h2>
+        <form method="get" action="thanks.html">
+            <h3>Send Us a Message</h3>
+            <div class="section">
+                <h4>Contact Info</h4>
+                <div class="field">
+                    <label>
+                        Name
+                        <br>
+                        <input type="text" name="name" pattern="[A-Za-z ]{5,}" placeholder="John Smith" required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Company Name
+                        <br>
+                        <input type="text" name="company_name" pattern="[A-Za-z ]{5,}" placeholder="Bold Edge Adv." required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Email
+                        <br>
+                        <input type="email" name="email" placeholder="demo@gmail.com" required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>
+                        Phone Number
+                        <br>
+                        <input type="tel" name="phone_number" placeholder="(111) 111-1111">
+                    </label>
+                </div>
             </div>
-            <h3>Grease Monkey</h3>
-            <img id="gm-ad" src="../images/greasemonkeyad.jpg" alt="Grease Monkey Ad">
-            <br>
-            <div id="gm-lp">
-                <p class="caption">Grease Monkey Landing Page</p>
-                <img src="../images/greasemonkeylanding.jpg" alt="Grease Monkey Landing Page">
+            <div class="section">
+                <h4>Message</h4>
+                <div class="field">
+                    <input type="textarea" name="additional_information_or_comments">
+                </div>
             </div>
-            <h3>The Dent Shop</h3>
-            <img id="ds-ad" src="../images/thedentshopad.jpg" alt="The Dent Shop Ad">
             <br>
-            <div id="ds-lp">
-                <p class="caption">The Dent Shop Landing Page</p>
-                <img src="../images/thedentshoplanding.jpg" alt="The Dent Shop Landing Page">
-            </div>
-        </div>
+            <input class="submit" type="submit" name="form_submission_button" value="Send Message">
+        </form>
     </main>
     <footer>
         <div class="contact-info">
