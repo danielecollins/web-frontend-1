@@ -94,10 +94,13 @@
         width: 100%;
         margin: 3% auto 0;
         background-color: #680504;
-        padding: 0 0 2%;
+        padding: 0 2% 2%;
     }
 
-    
+    #ad-gallery picture{
+        width: 320px;
+        justify-self: center;
+    }
 
     #ad-gallery img:hover {
         box-shadow: 0 0 30px white;
@@ -106,6 +109,10 @@
     #ad-gallery h3 {
         grid-row: 1;
         height: 50px;
+    }
+
+    .center-heading {
+        padding-top: 4%;
     }
 
     .caption {
