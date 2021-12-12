@@ -15,6 +15,8 @@
 
     <script src="../js/webfontload.js" defer></script>
     <script src="../js/hamburger.js" defer></script>
+    <script src="../js/lazyloader.js" defer></script>
+    <script src="../js/animation.js" defer></script>
 </head>
 <body>
     <header>
@@ -38,25 +40,43 @@
         <h2><span><hr></span><span>Our Work</span><span><hr></span></h2>
         <div id="ad-gallery">
             <h3>The Church of Jesus Christ of Latter Day Saints</h3>
-            <img id="lds-ad" src="../images/churchofjcad.jpg" alt="Church of Jesus Christ Ad">
+            <picture class="fade-in" id="lds-ad">
+                <source data-src="../images/churchofjcad.jpg">
+                <img alt="Church of Jesus Christ Ad">
+            </picture>
             <br>
-            <div id="lds-lp">
+            <div class="fade-in" id="lds-lp">
                 <p class="caption">The Church of Jesus Christ of Latter Day Saints Landing Page</p>
-                <img src="../images/churchofjclanding.jpg" alt="Church of Jesus Christ Landing Page">
+                <picture>
+                    <source data-src="../images/churchofjclanding.jpg">
+                    <img alt="Church of Jesus Christ Landing Page">
+                </picture>
             </div>
             <h3>Grease Monkey</h3>
-            <img id="gm-ad" src="../images/greasemonkeyad.jpg" alt="Grease Monkey Ad">
+            <picture class="fade-in" id="gm-ad">
+                <source data-src="../images/greasemonkeyad.jpg">
+                <img alt="Grease Monkey Ad">
+            </picture>
             <br>
-            <div id="gm-lp">
+            <div class="fade-in" id="gm-lp">
                 <p class="caption">Grease Monkey Landing Page</p>
-                <img src="../images/greasemonkeylanding.jpg" alt="Grease Monkey Landing Page">
+                <picture>
+                    <source data-src="../images/greasemonkeylanding.jpg">
+                    <img alt="Grease Monkey Landing Page">
+                </picture>
             </div>
             <h3>The Dent Shop</h3>
-            <img id="ds-ad" src="../images/thedentshopad.jpg" alt="The Dent Shop Ad">
+            <picture class="fade-in" id="ds-ad">
+                <source data-src="../images/thedentshopad.jpg">
+                <img alt="The Dent Shop Ad">
+            </picture>
             <br>
-            <div id="ds-lp">
+            <div class="fade-in" id="ds-lp">
+                <picture>
+                    <source data-src="../images/thedentshoplanding.jpg">
+                    <img alt="The Dent Shop Landing Page">
+                </picture>
                 <p class="caption">The Dent Shop Landing Page</p>
-                <img src="../images/thedentshoplanding.jpg" alt="The Dent Shop Landing Page">
             </div>
         </div>
     </main>

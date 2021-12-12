@@ -227,6 +227,16 @@ hr {
     width: 95%;
 }
 
+/*Lazy load animation*/
+.fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
 .caption {
     display: none;
 }
